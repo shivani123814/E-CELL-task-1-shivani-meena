@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyBoost</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+    <h2>StudyBoost</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#problem">Problem</a>
+        <a href="#solution">Solution</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- Home Section -->
+<section id="home" class="home">
+    <h1>StudyBoost</h1>
+    <p>Learn Smarter with AI Tools</p>
+    <button onclick="showMessage()">Get Started</button>
+</section>
+
+<!-- About Us -->
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        StudyBoost is a student-focused startup that helps learners improve their
+        study habits using smart AI tools.
+    </p>
+    <p><b>Mission:</b> To make studying easier, faster, and more effective.</p>
+</section>
+
+<!-- Problem Section -->
+<section id="problem">
+    <h2>Problem Statement</h2>
+    <p>
+        Many students waste time using inefficient study methods and struggle to
+        stay focused.
+    </p>
+    <p><b>Target Users:</b> School and college students</p>
+</section>
+
+<!-- Solution Section -->
+<section id="solution">
+    <h2>Our Solution</h2>
+    <p>
+        StudyBoost provides AI-based tools that help students learn efficiently.
+    </p>
+
+    <ul>
+        <li>AI Notes Generator</li>
+        <li>Smart Quiz System</li>
+        <li>Progress Tracking</li>
+        <li>Focus Timer</li>
+    </ul>
+</section>
+
+<!-- Extra Section (Features) -->
+<section id="features">
+    <h2>Key Features</h2>
+    <div class="feature-box">
+        <p>📘 Easy to Use</p>
+        <p>⚡ Fast Performance</p>
+        <p>🤖 AI Powered</p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: studyboost@gmail.com</p>
+
+    <form onsubmit="submitForm(event)">
+        <input type="text" placeholder="Your Name" required><br>
+        <input type="email" placeholder="Your Email" required><br>
+        <textarea placeholder="Your Message"></textarea><br>
+        <button type="submit">Send</button>
+    </form>
+
+    <p id="formMessage"></p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 StudyBoost | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
